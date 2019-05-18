@@ -59,7 +59,7 @@ function displayMovieInfo() {
 
        // Putting the entire movie above the previous movies
        $("#movies-view").prepend(movieDiv);
-        // $('#movies-view').text(JSON.stringify(response));
+    //    $('#movies-raw').text(JSON.stringify(response));
 
     });
 }
