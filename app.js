@@ -9,8 +9,9 @@ function displayMovieInfo() {
     // alert(movieName);
     // YOUR CODE GOES HERE!!! HINT: You will need to create a new div to hold the JSON.
     $("<div>").text(movieName);
-
+    console.log(movieName);
     var queryURL = "https://omdbapi.com/?t=" + movieName + "&apikey=trilogy";
+    console.log(queryURL);
 
     // We then created an AJAX call
     $.ajax({
